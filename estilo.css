@@ -1,0 +1,61 @@
+.gruposs{
+    width: 250px;
+    margin: 15px;
+    background-color: white;
+    padding: 10px;
+}
+.img{
+    width: 250px;
+    height: 250px;
+
+}
+section{
+    width: 1200px;
+    margin: auto;
+}
+body{
+    background-color: black;
+
+}
+.galeria{
+    display: flex;
+}
+.a1{
+    background-image: url(noche\ estrellada\ vincent\ van\ gogh.jpg);
+    background-size: cover;
+
+}
+.a2{
+    background-image: url(terraza\ de\ cafe\ por\ la\ noche.jpg);
+    background-size: cover;
+}
+.a3{
+    background-image: url(almendra\ flores.jpg);
+    background-size: contain;
+}
+.a4{
+    background-image: url(autoretrato\ oreja\ vendada.jpg);
+    background-size: cover;
+}
+header{
+    background-color: #5dade2;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    padding-top: 20px;
+}
+footer{
+    background-color: #5dade2;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 500px;
+    height: 50px;
+    padding-top: 20px;
+}
+.gruposs:hover{
+background-color: #5dade2;
+}
